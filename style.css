@@ -110,14 +110,14 @@ ul>li>a:hover {
     position-area: center;
 }
 
-.ucapan>h1 {
-    font-size: 2.5rem;
+.utama-ucapan {
+    font-weight: bold;
+    font-size: 80px;
     text-shadow: 0px 2px 2px rgba(0,0,0,0.6);
 }
-.ucapan>p {
+.isi-ucapan {
     color: #ffffff;
     font-weight: bold;
-    font-size: 1,7vw;
     padding-top: 15px;
     text-shadow: 0px 2px 2px rgba(0,0,0,0.6);
 }
@@ -140,6 +140,7 @@ ul>li>a:hover {
     max-width: 270px;
     float: left;
     margin-right: 15px;
+    padding-bottom: 7px;
 }
 
 .nama-kepsek {
@@ -159,6 +160,13 @@ ul>li>a:hover {
 .isi-sambutan {
     color:#007F23;
     font-size: 16px;
+}
+
+.isi-sambutan2 {
+    color: #007F23;
+    font-size: 16px;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 #about {
@@ -237,6 +245,7 @@ ul>li>a:hover {
 
     .navbar {
         height: 9%;
+        border-radius: 0px;
     }
 
     .wrapper {
@@ -250,7 +259,7 @@ ul>li>a:hover {
         padding-left: 21%;
         padding-right: 21%;
         max-width: none;
-        width: 69%;
+        width: 58%;
         padding-bottom: 2%;
         margin-right: -15px;
     }
