@@ -91,14 +91,33 @@ ul>li>a:hover {
 
 }
 
-
 .background {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    width: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 }
+
+.background>img {
+    height: 100vh;
+    width: auto;
+
+}
+
+/* .background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+} */
 
 .ucapan {
     justify-content: center;
@@ -262,5 +281,9 @@ ul>li>a:hover {
         width: 58%;
         padding-bottom: 2%;
         margin-right: -15px;
+    }
+
+    .isi-ucapan {
+        opacity: 0%;
     }
 }
